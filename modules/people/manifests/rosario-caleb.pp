@@ -80,7 +80,7 @@ node default {
   include libpng
   include mysql
   include php
-  include nike_plus_connect
+  include module-nike_plus_connect
   include skype
   include arduino
   include bartender
