@@ -130,8 +130,23 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'curl',
+      'dos2unix',
+      'findutils',
+      'gnu-tar',
+      'wget',
+      'pkg-config',
+      'coreutils',
+      'bash',
+      'bash-completion',
+      'git-extras',
+      'binutils',
+      'diffutils',
+      'gzip'
     ]:
+      provider  => homebrew,
+      require   => Exec['tap-homebrew-dupes'],
   }
 
   file { "${boxen::config::srcdir}/our-boxen":
