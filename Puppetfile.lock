@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.6.1)
+    boxen (3.6.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -270,7 +270,7 @@ DEPENDENCIES
   arduino (= 1.0.1)
   autoconf (= 1.0.0)
   bartender (= 1.0.0)
-  boxen (= 3.6.1)
+  boxen (= 3.6.2)
   caffeine (= 1.0.0)
   chrome (= 1.1.2)
   daisy_disk (= 1.0.1)
